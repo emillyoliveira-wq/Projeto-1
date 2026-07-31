@@ -1,15 +1,13 @@
-
 <!DOCTYPE html>
-
 <html lang="pt-br">
-    <head>
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Barbie</title>
         <style>
             header{
-                background-color: rgb(249, 7, 185);
-                color: rgb(6, 13, 18);
+                background-color: deeppink;
+                color: black;
                 text-align: center;
                 max-width: 800px;
                 margin: 0 auto;
@@ -17,28 +15,31 @@
                 border: 5px solid color(srgb rgb(162, 1, 151));
             }
             main {
-                background-color:rgb(253, 108, 255);
+                background-color: crimson;
                 color: black;
                 max-width: 800px;
                 margin: 0 auto;
                 padding: 16px;
                 display: flex;
             }
-        img{
-            width: 80px;
-            height: 80px;
+
+            img{
+                width: 80px;
+                height: 80px;
         }
         .artigo-autor{
-            font-weight: bold;
+                font-weight: bold;
         }
+
     </style>
  </head>
+
  <body>
     </header>
           <h1>Universo Barbie</h1>
           <p>Irei fazer uma página de curiosidades sobre a Barbie </p>  
-          </header>
-
+          
+    </header>
     </main>
          <img src="Gemini_Generated_Image_eya0z8eya0z8eya0.png" alt="Ilustração em pixel art com o título 'Universo Barbie' , mostrando quatro cenas inspiradas em filmes clássicos da Barbie.">
          <div>
@@ -47,16 +48,18 @@
             <p>Boas vindas ao meu site! Aqui irei falar um pouco sobre os filmes e curiosidades da Barbie!</p>
             <button>❤️ <span>0</span></button> 
          </div>
-    </main>
-    </body>
-     <script>
-        const botao = document.querySelector("button");
-        botao.addEventListener("click", botaoClicado);
 
-        function botaoClicado(){
+    </main>
+</body>
+<script>
+     const botao = document.querySelector("button");
+     botao.addEventListener("click", botaoClicado);
+     
+     function botaoClicado(){
             console.leg("fui clicado");
             let texto = botao.querySelector("span");
             texto.textContent++;
-        }
-     </script>
- </html>
+     }
+
+</script>
+</html>
